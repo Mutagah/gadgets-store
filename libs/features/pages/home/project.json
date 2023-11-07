@@ -1,7 +1,7 @@
 {
-  "name": "main-page",
-  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "libs/pages/main-page/src",
+  "name": "home",
+  "$schema": "../../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/features/pages/home/src",
   "prefix": "gadgets-store",
   "tags": [],
   "projectType": "library",
@@ -10,7 +10,7 @@
       "executor": "@nx/jest:jest",
       "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
       "options": {
-        "jestConfig": "libs/pages/main-page/jest.config.ts",
+        "jestConfig": "libs/features/pages/home/jest.config.ts",
         "passWithNoTests": true
       },
       "configurations": {
@@ -25,8 +25,8 @@
       "outputs": ["{options.outputFile}"],
       "options": {
         "lintFilePatterns": [
-          "libs/pages/main-page/**/*.ts",
-          "libs/pages/main-page/**/*.html"
+          "libs/features/pages/home/**/*.ts",
+          "libs/features/pages/home/**/*.html"
         ]
       }
     }

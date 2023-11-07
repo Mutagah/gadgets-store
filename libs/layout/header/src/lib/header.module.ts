@@ -6,5 +6,6 @@ import { TitlebarComponent } from './components/titlebar/titlebar.component';
 @NgModule({
   imports: [CommonModule],
   declarations: [NavbarComponent, TitlebarComponent],
+  exports: [NavbarComponent, TitlebarComponent]
 })
 export class HeaderModule {}

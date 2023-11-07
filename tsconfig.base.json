@@ -16,6 +16,7 @@
     "baseUrl": ".",
     "paths": {
       "@gadgets-store/header": ["libs/layout/header/src/index.ts"],
+      "@gadgets-store/home": ["libs/features/pages/home/src/index.ts"],
       "@gadgets-store/main-page": ["libs/pages/main-page/src/index.ts"]
     }
   },

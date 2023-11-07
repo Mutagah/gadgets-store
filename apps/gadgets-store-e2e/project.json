@@ -1,0 +1,33 @@
+{
+  "name": "gadgets-store-e2e",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "sourceRoot": "apps/gadgets-store-e2e/src",
+  "targets": {
+    "e2e": {
+      "executor": "@nx/cypress:cypress",
+      "options": {
+        "cypressConfig": "apps/gadgets-store-e2e/cypress.config.ts",
+        "testingType": "e2e",
+        "devServerTarget": "gadgets-store:serve:development"
+      },
+      "configurations": {
+        "production": {
+          "devServerTarget": "gadgets-store:serve:production"
+        },
+        "ci": {
+          "devServerTarget": "gadgets-store:serve-static"
+        }
+      }
+    },
+    "lint": {
+      "executor": "@nx/eslint:lint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["apps/gadgets-store-e2e/**/*.{js,ts}"]
+      }
+    }
+  },
+  "tags": [],
+  "implicitDependencies": ["gadgets-store"]
+}

@@ -15,7 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@gadgets-store/header": ["libs/layout/header/src/index.ts"]
+      "@gadgets-store/header": ["libs/layout/header/src/index.ts"],
+      "@gadgets-store/main-page": ["libs/pages/main-page/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

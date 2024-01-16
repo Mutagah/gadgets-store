@@ -1,0 +1,32 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "iphone 13",
+      "category": "phones & tablets",
+      "price": "ksh100,000",
+      "inStock": 10,
+      "discount": 3.5,
+      "pImage":"/assets/product_images/iphone 13 pro max.webp"
+    },
+    {
+      "id": 2,
+      "name": "iphone 12",
+      "category": "phones & tablets",
+      "price": "ksh100,000",
+      "inStock": 10,
+      "discount": 2,
+      "pImage": "/assets/product_images/iphone 13 pro max.webp"
+    },
+    {
+      "id": 3,
+      "name": "iphone 14",
+      "category": "phones & tablets",
+      "price": "ksh200,000",
+      "inStock": 30,
+      "discount": 2,
+      "pImage": "/assets/product_images/iphone 13 pro max.webp"
+    }
+
+  ]
+}

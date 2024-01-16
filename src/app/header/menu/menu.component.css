@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montez&family=Salsa&display=swap');
+
+
+.main-header-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+    margin: 1.5rem;
+    padding: 1.5rem 0;
+}
+
+.logo-section{
+    border-radius: 50%
+}
+
+.name-subsection{
+    padding: 1rem;
+    margin: 0 2rem;
+    background-color: #f3e6ae;
+    border-radius: 50%;
+}
+
+.main-header-name{
+    font-family: 'Salsa', cursive;
+}
+
+.middle-header-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title{
+    text-align: center;
+    font-family: 'Montez', cursive;
+    font-family: 'Salsa', cursive;
+    font-size: 50px;
+}
+
+.search-container{
+    display: flex;
+    margin: 3rem;
+    border-radius: 2rem;
+    border: 3px solid #f37e19;
+    height: 40px;
+    width: calc(100% + 15rem);
+}
+
+.search-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%
+}
+
+.search-input{
+    height: 23px;
+    border: none;
+    outline: none;
+    width: 70%;
+    padding: 0.5rem;
+    border-radius: 2rem;
+}
+
+.select-category{
+    width: 30%;
+    height: 40px;
+    border-left :3px solid #f37e19;
+    border-right: 3px solid #f37e19;
+}
+
+.search-icon{
+    padding: 0.65rem;
+}
+
+.icons{
+    padding: 2rem;
+    font-size: 20px;
+}

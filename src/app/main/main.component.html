@@ -1,0 +1,6 @@
+<div class="main-product-container" *ngFor="let product of productList">
+  <!-- Product category to be renderes here -->
+  <div *ngFor="let good of product.goods">
+    <app-product [item]="good"></app-product>
+  </div>
+</div>

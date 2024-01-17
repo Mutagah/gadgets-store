@@ -7,6 +7,8 @@ import { HeaderComponent } from './header/header.component';
 import { TopMenuComponent } from './header/top-menu/top-menu.component';
 import { MenuComponent } from './header/menu/menu.component';
 import { BottomMenuComponent } from './header/bottom-menu/bottom-menu.component';
+import { MainComponent } from './main/main.component';
+import { ProductComponent } from './main/product/product.component';
 
 
 @NgModule({
@@ -15,7 +17,9 @@ import { BottomMenuComponent } from './header/bottom-menu/bottom-menu.component'
     HeaderComponent,
     TopMenuComponent,
     MenuComponent,
-    BottomMenuComponent
+    BottomMenuComponent,
+    MainComponent,
+    ProductComponent
   ],
   imports: [
     BrowserModule,

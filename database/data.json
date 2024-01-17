@@ -1,32 +1,88 @@
 {
-  "products": [
-    {
-      "id": 1,
-      "name": "iphone 13",
-      "category": "phones & tablets",
-      "price": "ksh100,000",
-      "inStock": 10,
-      "discount": 3.5,
-      "pImage":"/assets/product_images/iphone 13 pro max.webp"
-    },
-    {
-      "id": 2,
-      "name": "iphone 12",
-      "category": "phones & tablets",
-      "price": "ksh100,000",
-      "inStock": 10,
-      "discount": 2,
-      "pImage": "/assets/product_images/iphone 13 pro max.webp"
-    },
-    {
-      "id": 3,
-      "name": "iphone 14",
-      "category": "phones & tablets",
-      "price": "ksh200,000",
-      "inStock": 30,
-      "discount": 2,
-      "pImage": "/assets/product_images/iphone 13 pro max.webp"
-    }
-
-  ]
+  "products": [{
+    "id": 1,
+    "category": "phones & tablets",
+    "goods": [
+      {
+        "id": 1,
+        "name": "iphone 13",
+        "price": 125000,
+        "inStock": 10,
+        "discount": 3.5,
+        "pImage": "/assets/product_images/iphone 13 pro max.webp"
+      },
+      {
+        "id": 2,
+        "name": "iphone 12",
+        "price": 100000,
+        "inStock": 10,
+        "discount": 2,
+        "pImage": "/assets/product_images/iphone 13 pro max.webp"
+      },
+      {
+        "id": 3,
+        "name": "iphone 14",
+        "price": 150000,
+        "inStock": 30,
+        "discount": 2,
+        "pImage": "/assets/product_images/iphone 13 pro max.webp"
+      },
+      {
+        "id": 4,
+        "name": "iphone 14",
+        "price": 150000,
+        "inStock": 30,
+        "discount": 2,
+        "pImage": "/assets/product_images/iphone 13 pro max.webp"
+      },
+      {
+        "id": 5,
+        "name": "iphone 14",
+        "price": 150000,
+        "inStock": 30,
+        "discount": 2,
+        "pImage": "/assets/product_images/iphone 13 pro max.webp"
+      },
+      {
+        "id": 6,
+        "name": "iphone 14",
+        "price": 150000,
+        "inStock": 30,
+        "discount": 2,
+        "pImage": "/assets/product_images/iphone 13 pro max.webp"
+      },
+      {
+        "id": 7,
+        "name": "iphone 14",
+        "price": 150000,
+        "inStock": 30,
+        "discount": 2,
+        "pImage": "/assets/product_images/iphone 13 pro max.webp"
+      },
+      {
+        "id": 8,
+        "name": "iphone 14",
+        "price": 150000,
+        "inStock": 30,
+        "discount": 2,
+        "pImage": "/assets/product_images/iphone 13 pro max.webp"
+      },
+      {
+        "id": 9,
+        "name": "iphone 14",
+        "price": 150000,
+        "inStock": 30,
+        "discount": 2,
+        "pImage": "/assets/product_images/iphone 13 pro max.webp"
+      },
+      {
+        "id": 10,
+        "name": "iphone 14",
+        "price": 150000,
+        "inStock": 30,
+        "discount": 2,
+        "pImage": "/assets/product_images/iphone 13 pro max.webp"
+      }
+    ]
+}]
 }

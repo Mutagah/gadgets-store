@@ -1,6 +1,10 @@
-<div class="main-product-container" *ngFor="let product of productList">
-  <!-- Product category to be renderes here -->
-  <div *ngFor="let good of product.goods">
-    <app-product [item]="good"></app-product>
+<div class="main-products-section" *ngFor="let product of productList">
+  <div class="category-header">
+    <a href="#" class="category-link">{{ product.category }}</a>
+  </div>
+  <div class="product-container">
+    <div *ngFor="let good of product.goods">
+      <app-product [item]="good"></app-product>
+    </div>
   </div>
 </div>

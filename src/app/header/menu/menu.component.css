@@ -1,6 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montez&family=Salsa&display=swap');
-
 
 .main-header-container{
     display: flex;
@@ -33,7 +31,6 @@
 
 .title{
     text-align: center;
-    font-family: 'Montez', cursive;
     font-family: 'Salsa', cursive;
     font-size: 50px;
 }

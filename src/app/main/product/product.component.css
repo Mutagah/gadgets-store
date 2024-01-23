@@ -5,10 +5,6 @@
   margin: 15px 10px 0 0;
   border: 0.5px solid #f37e19;
   border-radius: 15px;
-  
-  /* :hover{
-    box-shadow: 0 0 7px rgba(0, 0, 0, 0.8);
-  } */
 
   .product-name p {
     color: black;
@@ -18,7 +14,7 @@
   }
 
   .product-image {
-    width: 170px; 
+    width: 170px;
     height: 150px;
     margin: 0 auto;
   }
@@ -40,6 +36,18 @@
 
   .product-info p {
     padding: 0 15px;
+    font-size: medium;
+    font-weight: lighter;
+  }
+
+  .cart-svg {
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.881);
+    border-radius: 50%;
+    padding: 5px;
+  }
+
+  .cart-svg:hover{
+  background-color:  #f37e19;
   }
 
   /*.btn {
@@ -57,4 +65,8 @@
     font-size: 15px;
     border-radius: 0 0 15px;
   } */
+}
+
+.product:hover{
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.881);
 }

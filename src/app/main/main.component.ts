@@ -13,7 +13,7 @@ export class MainComponent {
   @Input() productList!: Product[];
   
   // Injection of my service(basically where i have fetched my data)
-  productService: ProductService = inject(ProductService);
+  productService: ProductService = inject(ProductService); 
 
   constructor(){
     this.productService.fetchAllProducts().then((productListArray: Product[]) => {

@@ -4,11 +4,13 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
-import { TopMenuComponent } from './header/top-menu/top-menu.component';
+import { TopMenuComponent } from './top-menu/top-menu.component';
 import { MenuComponent } from './header/menu/menu.component';
 import { BottomMenuComponent } from './header/bottom-menu/bottom-menu.component';
-import { MainComponent } from './main/main.component';
-import { ProductComponent } from './main/product/product.component';
+import { MainComponent } from './home/main.component';
+import { ProductComponent } from './home/product/product.component';
+import { AppRoutingModule } from './app-routing.module';
+import { CartComponent } from './cart/cart.component';
 
 
 @NgModule({
@@ -19,11 +21,13 @@ import { ProductComponent } from './main/product/product.component';
     MenuComponent,
     BottomMenuComponent,
     MainComponent,
-    ProductComponent
+    ProductComponent,
+    CartComponent
   ],
   imports: [
     BrowserModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

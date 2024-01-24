@@ -1,1 +1,11 @@
-<p>cart works!</p>
+<div style="text-align: center">
+  <div class="text-container" style="border: 1px solid green">
+    <h2>Your cart is currently empty</h2>
+  </div>
+  <button class="shopping-button" (click)="navigateToShop()">
+    Return to Shop
+    <span>
+        <fa-icon [icon]="faCircleArrowLeft" class="right-arrow fa-2x"></fa-icon>
+    </span>
+  </button>
+</div>

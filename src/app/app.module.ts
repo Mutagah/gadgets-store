@@ -11,6 +11,7 @@ import { MainComponent } from './home/main.component';
 import { ProductComponent } from './home/product/product.component';
 import { AppRoutingModule } from './app-routing.module';
 import { CartComponent } from './cart/cart.component';
+import { ShopComponent } from './shop.component';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { CartComponent } from './cart/cart.component';
     BottomMenuComponent,
     MainComponent,
     ProductComponent,
-    CartComponent
+    CartComponent,
+    ShopComponent
   ],
   imports: [
     BrowserModule,
